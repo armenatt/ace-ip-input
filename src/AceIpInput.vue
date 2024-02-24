@@ -65,7 +65,6 @@
       <div
         v-if="isFilled && showCloseIcon"
         class="ace-ip-input__close"
-        icon="fal fa-times"
         @click="onClear"
       >
         <slot name="resetButton"> x </slot>
