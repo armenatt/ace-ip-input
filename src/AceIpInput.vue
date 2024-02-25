@@ -67,7 +67,7 @@
         class="ace-ip-input__close"
         @click="onClear"
       >
-        <slot name="resetButton"> x </slot>
+        <slot name="clear"> x </slot>
       </div>
     </div>
   </div>
